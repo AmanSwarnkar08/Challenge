@@ -8,9 +8,6 @@ resource "google_service_account" "bastion" {
   display_name = "Bastion SA"
 }
 
-/*****************************************
-  Bastion Autoscaling Group
- *****************************************/
 
 // The user-data script on Bastion instance provisioning
 data "template_file" "startup_script" {
