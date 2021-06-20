@@ -7,6 +7,7 @@
 
 # Challenge 2
 * Usng gcloud and python programming language retrieving metadata of a gce instance.
+* In order to run this file use command line arguments. First argument for instance name and second argument for key whose value is to be retrieved, If no key is passed it will return all the metadata of a gce instance in json format.
 
 # Challenge 3
 * A python program to fetch the values from a nested dictionary object.
